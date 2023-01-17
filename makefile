@@ -14,7 +14,7 @@
 
 NAME = fractol
 
-FLAGS = -lmlx -framework OpenGL -framework AppKit -Wall -Wextra -Werror -O3
+FLAGS = -lmlx -Wall -Wextra -Werror -O3
 
 SRC = ./libft/libft.a carpet.c circle.c color.c draw_menger.c fractal.c \
 		ft_error.c init.c init_sierp.c julia.c key_hook.c main.c \
