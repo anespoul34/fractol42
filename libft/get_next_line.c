@@ -85,11 +85,9 @@ int					ft_check(t_buffer **buf, char **line, int size, char *tmp)
 int					ft_line(t_buffer **buf, char **line)
 {
 	char			*tmp;
-	int				i;
 	static int		size = 0;
 
 	tmp = *line;
-	i = 0;
 	if (!(tmp = malloc(sizeof(char) * ((*buf)->size))))
 		return (-1);
 	if (size >= (int)ft_strlen((*buf)->content))
